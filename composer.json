@@ -1,0 +1,23 @@
+{
+    "name": "fratily/lexer",
+    "type": "library",
+    "keywords": [
+        "fratily",
+        "lexer"
+    ],
+    "authors": [
+        {
+            "name": "Kento Oka",
+            "email": "kento.oka@kentoka.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fratily\\Lexer\\": "src/"
+        }
+    }
+}
